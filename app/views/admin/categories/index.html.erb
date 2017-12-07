@@ -1,0 +1,11 @@
+<header class="pg-header">
+  <h1>Admin &raquo; All Categories</h1>
+</header>
+
+<div class="categoryname">
+<%= link_to '+ New Category', [:new, :admin, :category], class: 'btn btn-info' %>
+</div>
+
+<div>
+  <%= render @categories %>
+</div>
